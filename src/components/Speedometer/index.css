@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+.main {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  height: 25vw;
+}
+
+.h1 {
+  color: white;
+  font-family: roboto;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.h2 {
+  color: white;
+  font-family: roboto;
+  font-size: 22px;
+}
+
+.p1 {
+  color: #cbd5e1;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.button1 {
+  padding: 6px;
+  margin: 10px;
+  background-color: #0b69ff;
+  border-width: 0px;
+  font-family: roboto;
+  color: white;
+  width: 140px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button2 {
+  padding: 6px;
+  margin: 10px;
+  background-color: transparent;
+  border-width: 2px;
+  font-family: roboto;
+  color: white;
+  border-color: #94a3b8;
+  border-style: solid;
+  width: 140px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 50px;
+  }
+
+  .h2 {
+    font-size: 35px;
+  }
+
+  .p1 {
+    font-size: 24px;
+  }
+
+  .button1 {
+    font-size: 22px;
+  }
+
+  .button2 {
+    font-size: 22px;
+  }
+}
